@@ -1,14 +1,13 @@
 Dataset:  ydata-video2gif-v1_0
 
-===========================================================================
+========================================================================
 Yahoo! Video2GIF dataset, version 1.0
 
-The Video2GIF dataset contains the IDs and URLs of over 100'000 GIFs and their source video.
+The Video2GIF dataset contains the IDs and URLs of over 100'000 GIFs and their source video along with the alignment of the GIF to the video.
 The GIFs are collected from GIF websites (makeagif.com, gifsoup.com) in Summer 2015.
 The source videos were collected from YouTube.
-In addition the dataset contains the 357 videos of the test set, which are licenced
-under Creative Commons (CC-BY) license. 
-The dataset shall be used to evaluate video highlight and GIF creation techniques.
+In addition the dataset contains the 357 videos of the test set, which are licensed
+under Creative Commons (CC-BY) license. The dataset shall be used to evaluate video highlight and GIF creation techniques.
 
 If you end up using the dataset, we ask you to cite the following paper:
 
@@ -19,7 +18,7 @@ If you have any question regarding the dataset, please contact:
 
     Michael Gygli <gygli@vision.ee.ethz.ch>
 
-===========================================================================
+========================================================================
 This dataset is provided as part of the Yahoo! Webscope program, to be
 used for approved non-commercial research purposes by recipients who 
 have signed a Data Sharing Agreement with Yahoo!. This dataset is not
@@ -27,7 +26,7 @@ to be redistributed. No personally identifying information is available
 in this dataset. More information about the Yahoo! Webscope program is
 available at http://research.yahoo.com
 
-===========================================================================
+========================================================================
 
 Full description:
 
@@ -35,19 +34,25 @@ This dataset contains one zip-compressed archive file.
 
 The content of the file is as follows:
 
+(a) "metadata.txt" This files contains the information on the GIFs, their corresponding source video ID and the temporal alignment of the GIF to the video.
+    It contains the following fields:
+    youtube_id, is_creative_commons, gif_id, gif_url, gif_start_frame, gif_end_frame, 
+    gif_start_sec, gif_end_sec, gif_title, gif_views, gif_age, video_title, video_views,
+    video_publish_date, video_likes, video_duration, video_frame_count, 
+    video_category, video_rating, video_description, video_retrieved_date
 
-(a) "metadata.txt" This files contains the information on the GIFs, their corresponding source video ID and the temporal alignement of the GIF to the video.
-    Furthermore it contains meta information such as the number of views per GIF and video.
-    The format is as follows:
-
-(b) "video_tags" A file containing a list of video tags for each video. The tags on line "n" corresponds to the video on line "n" in metadata.txt
+(b) "video_tags" A file containing a list of video tags for each video.
+    Format: YoutubeID;\t tag1; tag2; ...; tagN
 
 (c) "testset.txt" Contains the YouTubeIDs of the videos used to evaluate our method
 
-(d) "./test_videos/" this directory contains the 357 test videos, which are licenced under Creative Commons (CC-BY).
-    Their format is: YouTubeID.mp4
+(d) "./test_videos/" this directory contains the 357 test videos, which are licensed 
+    under Creative Commons (CC-BY). Their format is: YouTubeID.mp4
 
-(e) "./evaluation/" This directory contains evaluation code for nMSD and Average Precision (in python)
+(e) "./evaluation/" This directory contains evaluation code for nMSD and Average Precision
     Requires the packages 'numpy', 'scikit-learn' and 'pandas' which can be installed using pip
 
-Last edit: March 10, 2016
+(f) “example.py” Shows how to evaluate the predictions of a model
+
+
+Last edit: March 9, 2016
