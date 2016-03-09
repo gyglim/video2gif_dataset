@@ -2,3 +2,4 @@
 .idea/
 *.pyc
 **/*.pyc
+test_videos/*.mp4

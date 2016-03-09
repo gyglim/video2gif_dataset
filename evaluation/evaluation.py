@@ -40,7 +40,7 @@ def get_gt_score(youtube_id,dataset):
     return ground_truth_selection
 
 
-def get_ap(y_true, y_predict, interpolate=False,point_11=False):
+def get_ap(y_true, y_predict, interpolate=True,point_11=False):
     '''
     Average precision in different formats: (non-) interpolated and/or 11-point approximated
     point_11=True and interpolate=True corresponds to the 11-point interpolated AP used in
@@ -108,6 +108,7 @@ def meaningful_summary_duration(gif_ground_truths,y_predict, min_inclusion=0.5,m
     for y_true in gif_ground_truths:
 
         gif_scores=y_predict[np.where(y_true>0)[0]]
+        min_gt_length=len(gif_scores)*min_inclusion
 
         # Account for the fact, that some part of the gif might not be included in a segment at all!
         # Only enforce overlap of min_inclusion
@@ -121,10 +122,10 @@ def meaningful_summary_duration(gif_ground_truths,y_predict, min_inclusion=0.5,m
 
         # How much of the ground truth GIF was actually included
         final_inclusion=np.sum(y_true[y_predict>=score_threshold])
-        assert final_inclusion>=min_inclusion*len(gif_scores), "Less than min_inclusing was in the selection"
+        assert final_inclusion>=min_gt_length, "Less than min_inclusing was in the selection"
 
         # Compute normalized msd
-        norm_msd = (meaningful_duration-final_inclusion) / (video_duration-final_inclusion)
+        norm_msd = (meaningful_duration-min_gt_length) / (video_duration-min_gt_length)
 
         msd_scores.append(norm_msd)
 
