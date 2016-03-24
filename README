@@ -1,24 +1,33 @@
-========================================================================
+================================================================================
 
-Yahoo! Video2GIF dataset, version 0.9
+Video2GIF dataset, version 0.9
 
-The Video2GIF dataset contains the IDs and URLs of over 100,000 GIFs and their source videos along with the alignment of the GIF to the video.
-The GIFs are collected from GIF websites (makeagif.com, gifsoup.com) in Summer 2015.
-The source videos were collected from YouTube.
-In addition the dataset contain 357 videos as the test set, which are licensed
-under Creative Commons (CC-BY) license. The dataset shall be used to evaluate GIF creation and video highlight techniques.
+The Video2GIF dataset contains over 100,000 pairs of GIFs and their source 
+videos. The GIFs were collected from two popular GIF websites (makeagif.com, 
+gifsoup.com) and the corresponding source videos were collected from YouTube in 
+Summer 2015. We provide IDs and URLs of the GIFs and the videos, along with 
+temporal alignment of GIF segments to their source videos. The dataset shall be 
+used to evaluate GIF creation and video highlight techniques.
+
+In addition to the 100K GIF-video pairs, the dataset contains 357 pairs of GIFs 
+and their source videos as the test set. The 357 videos come with a Creative 
+Commons CC-BY license, which allows us to redistribute the material with 
+appropriate credit. We provide this test set to make the results reproducible 
+even when some of the videos become unavailable.
 
 If you end up using the dataset, we ask you to cite the following paper:
 
     Michael Gygli, Yale Song, Liangliang Cao
-    "Video2GIF: Automatic Generation of Animated GIFs from Video," IEEE CVPR 2016
+    "Video2GIF: Automatic Generation of Animated GIFs from Video,"
+    IEEE CVPR 2016
 
 If you have any question regarding the dataset, please contact:
 
     Michael Gygli <gygli@vision.ee.ethz.ch>
 
 License: This dataset is licensed under BSD, see LICENSE file
-========================================================================
+
+================================================================================
 
 Full description:
 
@@ -26,27 +35,34 @@ This dataset contains one zip-compressed archive file.
 
 The content of the file is as follows:
 
-(a) "metadata.txt" This file contains the information on the GIFs, their corresponding source video ID and the temporal alignment of the GIF to the video.
-    It contains the following fields:
-    youtube_id, is_creative_commons, gif_id, gif_url, gif_start_frame, gif_end_frame, 
-    gif_start_sec, gif_end_sec, gif_title, gif_views, gif_age, video_title, video_views,
-    video_publish_date, video_likes, video_duration, video_frame_count, 
-    video_category, video_rating, video_description, video_retrieved_date
+(a) "metadata.txt" 
+    This file contains information about GIFs, their corresponding source video 
+    ID, and temporal alignment of the GIF to the video. It contains the following 
+    fields:
+
+    youtube_id, is_creative_commons, gif_id, gif_url, gif_start_frame, 
+    gif_end_frame, gif_start_sec, gif_end_sec, gif_title, gif_views, gif_age, 
+    video_title, video_views, video_publish_date, video_likes, video_duration, 
+    video_frame_count, video_category, video_rating, video_description, 
+    video_retrieved_date
 
 (b) "video_tags.txt”
-    A file containing a list of video tags for each video.
+    This file contains a list of video tags for each video.
+
     Format: YoutubeID;\t tag1; tag2; ...; tagN
 
-(c) "testset.txt" 
-    It contains the YouTubeIDs of the videos used to evaluate our method
-    We provide these videos on https://data.vision.ee.ethz.ch/cvl/video2gif/YouTubeID.mp4
+(c) "testset.txt"
+    This file contains YouTube IDs of the videos used for evaluatation. We 
+    provide these videos on:
+
+    https://data.vision.ee.ethz.ch/cvl/video2gif/YouTubeID.mp4
 
 (d) "./evaluation/"
-    This directory contains evaluation code for nMSD and Average Precision
-    it requires Python packages 'numpy', 'scikit-learn' and 'pandas' which can be installed using pip
+    This directory contains evaluation code for nMSD and Average Precision used 
+    in our CVPR 2016 paper. It requires Python packages 'numpy', 'scikit-learn' 
+    and 'pandas' which can be installed using pip.
 
 (e) "example.py"
-    This script shows how to evaluate the predictions of a model
-
+    This script shows how to evaluate the predictions of a model.
 
 Last edit: March 24, 2016
