@@ -6,363 +6,363 @@ current_dir=`pwd`
 cd $(dirname "$0")
 
 # Download all videos
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/007f_EMcxQM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/02ZxM-bEzXM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/073OgjkRFgk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/09krCGboqzw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/0wo1GA8WO_o.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/19afm8oB0ZM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/1EROmqidZQc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/1OJEWw06tK4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/1gKcOhMRn7s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/1iVcv3HQpLo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/2ImarZAmhL4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/2XX5zDThC3U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/3BOt0a_tGRg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/3Bf6M5LQJpA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/3H-4aDnA5Pg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/3TyKyeS3P-Q.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/3iCjH4VIIc4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4-urisn7Uic.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/41mHbuIOShQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/437Ld_rKM2s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4POHGvPKgog.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4T3SJcPqgSI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4bAxUJPT1pI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4dnqB4-pFkI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4mtMjjxtdZE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4pCLgHUzLpE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4qYt-jS66WE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/4xm_8bYoQYw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/52tkq-9Mp74.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5OUEGYotxoc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5XfPg-_8AA4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5cQBM0yBsjo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5geWE6VqwjE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5l_SPcufYPA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/5pcKIwY16b4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/6WhDFA3v33s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/6dacAwcq_Fk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/7pxwLX7fio8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/7xs5p76N1OQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/84fOsLdqDAM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/87mFdxs7Wy8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8FwM40HgagM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8IGS9qY7xko.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8QRxGnymM1U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8RpDQGr5gME.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8lEjk160Lns.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8t5B0994QUU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/8tCpdB9VQmQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/94EJopgapoM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/94rcOVJBMYQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/9CM2OgQIPlM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/9HLx44CQB4E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/9d4wovn-LdI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/9hDHZ_E49PU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/9zNYbSMiqCw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ACVUPrlDeTI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ARK3q9yp2Do.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ASyztH1ac3w.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/AWTk2vmHjmA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/AZ8tKmhNEOU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Ah5uQBnUa30.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/AilXTK0A75s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/At574q0vZtI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Av-ptsS5tLI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/BCvoBKwocuo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/BTVl8JcpnvY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CEmcS_FPu2k.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CGuRFGPLC5s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CJYCijes1jQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CKUgCYRwkvk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CY8jkxM80P0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CZ_9U9YCd0A.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Ci6lMQNLKZU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Ciz3U5hiVLA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CsbEq8ABbY0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/CwUHZSj21CI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Cx01fOYsc6E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/D6Q3VVDIaKY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/DZA46TM2jpw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/D_siqfXOSaA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/DowvOYbJ1v4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/DwdRwwuV_PA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Dwg9ru9WKJg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/E-M1sA1jm-o.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/EUP0OI81EYY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/EX6_Po7JaC0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/EkthEFmE6bM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/F1ptqDTBoIw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/FPheirqcXGU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/FYOJdMPM6NE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/FhHeH6MMjTM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/FiPOOD9ORKc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Fn2JPbUgGCs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GHLBcCv4rqk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GJZ-5wockoU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GLQX37CoRFk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GQotKoEBjyk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Gb5_fZB62ZY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GngT2Y0ZHyQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GwBrlGVLmDw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/GwX41xm9esY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/HkiXGfaz3lg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/HtfooguijT4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/HyZrzhdF3z8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/IJQwVOP6cio.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/IRBAZJ4lF0U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/IVKCRyCCFOI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/I_O13taC_UI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/IdTqOhUn7g8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Iusv8XwkSaM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JIC5gBAc40U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JP9NuaxhgcM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JQ24Jv78PHU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JZGP7oq2UUQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JeQi1sDl7a0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/JwUcpJa3Dz8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/K1-PqoC2qOk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/KOSlmlLtjLA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/KTbGDg2vK9E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/KbOQQNwj1-I.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/LRZWkJ2wL2M.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/LyxO5gANs3I.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/LyxkRnzLXz4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/MCVP2gvC32U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/MCjPm7IweEs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/MoR429VfIws.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/NdSQ_6Jp9xU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/NmQL3OQ9r3E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/NpTWh3gLfTA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Ntfp3PBmdpw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Nx8IKkTzcnA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/O--fM_o2Fgs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/O-Ep0N5Eyeg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/O4bXk9GZpns.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/OM_3y9Dg2qM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/OYliQMPKE80.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Oa4mxKB-uEU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/P5rSLVvp5dI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/PMDQ8j9brgU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/PUrzSYt5YB4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/PicwGUbAjb4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/PpcZI3v1jaU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Q1YPZ-04dag.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Q2--YzU3zFc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Q89gmiuFvfQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/QS_20JPaEnA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/QSdNBmUxX_4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/QTuf3i4eapI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/QcJ66gzclfg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/QcpFyK8P25M.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Qkj8tjW90CY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Qpe4edUTmhQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/R5Tnqisce7E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/R7PcQG3yiVw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/R9CASzQjuUY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/RD_0Iz9oPhE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/RXs4-M-ZiOg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Rmvb4Hktv7U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/S2d8BWwqkps.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/SCQHJS6PA00.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/SOYpyiDBKFc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/SzBQbKnwuZM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/T07ABb0n2rg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/TBN5AmVOVLo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/TCp25F0l7hc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/TIK9V3j04Z4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/TSPPMjDTLwE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/TjjvIIFqTDw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/U3by9FoEFB8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UB3sbJXW0X4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UW8C3XxEBQ4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UZKSM-7syVI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UacUR7bPnMM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UjjTMNDZi-A.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/UlqPY-VWsm8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/V12SXCvIC9Y.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/VCvFL3DmYr8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/VMXQ8LcuItM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/VwCkyf0lQwo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/W3YkLWSM0Pw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/W5i0vFUwQwM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/WcqUBiY7uWc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Wg6pNSSLdso.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/WlZU1qxBTTw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/XKl_ls9mOdc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/XUdw1QMm5us.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Xc9CwUFMA-4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/XcyBJ_4LeZ0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Xdzi1tAkV20.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Xem1OX14kYw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/XpdlNhRNNIY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/YIm8TzW8_fU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/YUFm9AgIgCw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Ye4CnzaAqf4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ZH7iA5HDWdM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ZUYCkHWgVss.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/Zm_SsdSW_xE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ZzV8NBHu2TY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/_LR1NtZOISg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/_aRu_3WvE6c.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/a5DdD2dTDBo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/a6hxZ21I8Q4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/aBRpZMqifn0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/aFBnC2zPkEU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/aQ63Px0TdqQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/aZOMqvmEMb4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/aZZF_jMA_Lo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ab42myp0HA4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/b7MpB-DUwmM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/baPLxugC8Nc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/c26Lxn9ItlQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/c3uymsVqPdc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/c9Y3PDVheeY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/cGOcy3dA51g.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/cGyHJqrXcSo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/chAPmQQqVIs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/czVS-hW8WC0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/d0dqp7UZx0Y.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/d6QQXw1pArA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/dIXq-LujIcA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/dWS4kQJPFLA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/dmc2xl5jLFo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/dn21H08vgc8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/duAXEJMgwyc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/e23lxldyNu0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/egqDPipqIAg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/en1ZHMANDkg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/en5pro-vyVw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/epfssa9mbLY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/f8ySjlqVVYs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/fH2fxMKGCMw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/fPywb7F4JDM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/fkySFA42ink.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/foVEWuMHo40.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/fy6r5aoBZqQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/g0oxu5tsFoI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/gID_ZY36FP0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/g_xwtZVuRaU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/gdRHmy6O6yU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/gozilDSb0pk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/gwcwSZIfKlM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/h68zxURYgLw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/hDT3qaA42GI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/hbSndm0jKoA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/i1Q9tAe-pIE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/i9lHgzGRnzk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/iC0IZOwx_xI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/iSE0okGINjU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/iUZ89t1FctY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/iXK68c3ColY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ilzmepgYdyQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ipJuYtowVBA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/iz0Z3DZPc8w.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jA-mYT02khw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jDThcFweXOE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jX9odKQlpxM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jawH2Pn_16Y.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jk2OMn8RXlM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/jkXDAXSB-z8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/k-y3uK9zn6k.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/kAKZeIzs0Ag.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/kMdq_CMN930.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/kPRA0W1kECg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/khnNH2C1igU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/kntq3ewQCf0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/kqUGVTXY_5U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/l4Os9UrPb7k.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/lDFb8wMj2pQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/lReaqqh4nEg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/lkfrElWa_nM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/lpUeaqJ_T2w.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/luwmJh3Hrx0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/m4qv9rK8k9s.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/m9lLtOxlQDY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mASBERjgLqA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mGvdVXxFkY4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mQRhHkKt8bI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mSnRq6iyHKg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mTSj2abg7C4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/mcR0yIzY4zQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/me9YKM92Wak.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/nSLqMqDv5ww.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/nWHIHe-rjoU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/nombrmb2Hvs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/o19Kf5NF2nE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/oKyCKrwMQpA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/oNHZsDqr07U.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/oa5wdyIAbB8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ol9SduxHoGQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/p0clJ1zKp00.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/p4awgcrXpD0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/pCCr8DbkJf0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/pWiLWmj-ook.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/pZqdacGtYsA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/pqieXSLOslo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/psLRiWbSue8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/psS2IMFkxKo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qEogbYmOh2Y.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qFkUCTBan6c.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qSHo2N-fOAE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qTvKWRIBkoY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qY_WUfUMdQw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qrSOh-wkqGU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/qv9nr1CXx00.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rCiKadZGEv8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rNBVvrdmB8o.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rTjfFt2i5Sg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rf8V8sRgFtU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rgERZsyAMWI.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/rt8h-wR-_Ww.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/s2q8nJKa4XA.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/s4udNe7h_hg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/s6Ay_dIRFak.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/sLDmfPz_bpg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/sfoBkPIv6a4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/sgL9fTGmB1Y.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/sj5_TH2L7h4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/t9AUFc9q3zo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tAFtYo3DAvs.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tD7FeRQAunU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tHqe5fAaPz0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tInL0I0M0Vo.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/t_8XaiZ0ol4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tjkMed9Rmfw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tnB-b9EpiSc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tniWjtknGlk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/tpi5RoNmvTU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/uWSxzjyMNpU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/ubmKGUzO0WQ.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/uudS8KsbLuM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/vMXEpwd5gYM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/vsglkjIRZrE.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/vvr_CFgpGw4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wTFeeYLO-hM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wZQ9hWq1BdY.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wcZ_Q_9Dtnw.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wguY9NXcS44.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wi9_1i9DD_A.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wqwPdwtaWY4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/wuvHz6iAdg4.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xOhU2KIBNq8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xTGXpdwD6BM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xTwdAe-M7Mk.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xZMcXbtH-ks.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xczoyGLziGg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xf-b3BorM4E.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/xq9zNopY7qg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/y8cLX_JduBc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/yXbUnCAyzjU.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/yZ8-09_W3T0.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/yzVJLba-Coc.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/z0m_6vzQSb8.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/z7E9J4OBMNg.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/z8EnhGih32I.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/zNiOMjOEn14.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/zRYJlG7qdTM.mp4
-wget https://data.vision.ee.ethz.ch/cvl/video2gif/zzkSxxSfEuo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/007f_EMcxQM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/02ZxM-bEzXM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/073OgjkRFgk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/09krCGboqzw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/0wo1GA8WO_o.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/19afm8oB0ZM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/1EROmqidZQc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/1OJEWw06tK4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/1gKcOhMRn7s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/1iVcv3HQpLo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/2ImarZAmhL4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/2XX5zDThC3U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/3BOt0a_tGRg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/3Bf6M5LQJpA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/3H-4aDnA5Pg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/3TyKyeS3P-Q.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/3iCjH4VIIc4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4-urisn7Uic.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/41mHbuIOShQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/437Ld_rKM2s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4POHGvPKgog.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4T3SJcPqgSI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4bAxUJPT1pI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4dnqB4-pFkI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4mtMjjxtdZE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4pCLgHUzLpE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4qYt-jS66WE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/4xm_8bYoQYw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/52tkq-9Mp74.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5OUEGYotxoc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5XfPg-_8AA4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5cQBM0yBsjo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5geWE6VqwjE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5l_SPcufYPA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/5pcKIwY16b4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/6WhDFA3v33s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/6dacAwcq_Fk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/7pxwLX7fio8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/7xs5p76N1OQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/84fOsLdqDAM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/87mFdxs7Wy8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8FwM40HgagM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8IGS9qY7xko.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8QRxGnymM1U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8RpDQGr5gME.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8lEjk160Lns.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8t5B0994QUU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/8tCpdB9VQmQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/94EJopgapoM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/94rcOVJBMYQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/9CM2OgQIPlM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/9HLx44CQB4E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/9d4wovn-LdI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/9hDHZ_E49PU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/9zNYbSMiqCw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ACVUPrlDeTI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ARK3q9yp2Do.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ASyztH1ac3w.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/AWTk2vmHjmA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/AZ8tKmhNEOU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Ah5uQBnUa30.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/AilXTK0A75s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/At574q0vZtI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Av-ptsS5tLI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/BCvoBKwocuo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/BTVl8JcpnvY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CEmcS_FPu2k.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CGuRFGPLC5s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CJYCijes1jQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CKUgCYRwkvk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CY8jkxM80P0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CZ_9U9YCd0A.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Ci6lMQNLKZU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Ciz3U5hiVLA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CsbEq8ABbY0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/CwUHZSj21CI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Cx01fOYsc6E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/D6Q3VVDIaKY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/DZA46TM2jpw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/D_siqfXOSaA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/DowvOYbJ1v4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/DwdRwwuV_PA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Dwg9ru9WKJg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/E-M1sA1jm-o.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/EUP0OI81EYY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/EX6_Po7JaC0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/EkthEFmE6bM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/F1ptqDTBoIw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/FPheirqcXGU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/FYOJdMPM6NE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/FhHeH6MMjTM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/FiPOOD9ORKc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Fn2JPbUgGCs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GHLBcCv4rqk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GJZ-5wockoU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GLQX37CoRFk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GQotKoEBjyk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Gb5_fZB62ZY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GngT2Y0ZHyQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GwBrlGVLmDw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/GwX41xm9esY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/HkiXGfaz3lg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/HtfooguijT4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/HyZrzhdF3z8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/IJQwVOP6cio.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/IRBAZJ4lF0U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/IVKCRyCCFOI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/I_O13taC_UI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/IdTqOhUn7g8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Iusv8XwkSaM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JIC5gBAc40U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JP9NuaxhgcM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JQ24Jv78PHU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JZGP7oq2UUQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JeQi1sDl7a0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/JwUcpJa3Dz8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/K1-PqoC2qOk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/KOSlmlLtjLA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/KTbGDg2vK9E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/KbOQQNwj1-I.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/LRZWkJ2wL2M.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/LyxO5gANs3I.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/LyxkRnzLXz4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/MCVP2gvC32U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/MCjPm7IweEs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/MoR429VfIws.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/NdSQ_6Jp9xU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/NmQL3OQ9r3E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/NpTWh3gLfTA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Ntfp3PBmdpw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Nx8IKkTzcnA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/O--fM_o2Fgs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/O-Ep0N5Eyeg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/O4bXk9GZpns.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/OM_3y9Dg2qM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/OYliQMPKE80.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Oa4mxKB-uEU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/P5rSLVvp5dI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/PMDQ8j9brgU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/PUrzSYt5YB4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/PicwGUbAjb4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/PpcZI3v1jaU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Q1YPZ-04dag.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Q2--YzU3zFc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Q89gmiuFvfQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/QS_20JPaEnA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/QSdNBmUxX_4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/QTuf3i4eapI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/QcJ66gzclfg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/QcpFyK8P25M.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Qkj8tjW90CY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Qpe4edUTmhQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/R5Tnqisce7E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/R7PcQG3yiVw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/R9CASzQjuUY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/RD_0Iz9oPhE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/RXs4-M-ZiOg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Rmvb4Hktv7U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/S2d8BWwqkps.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/SCQHJS6PA00.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/SOYpyiDBKFc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/SzBQbKnwuZM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/T07ABb0n2rg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/TBN5AmVOVLo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/TCp25F0l7hc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/TIK9V3j04Z4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/TSPPMjDTLwE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/TjjvIIFqTDw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/U3by9FoEFB8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UB3sbJXW0X4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UW8C3XxEBQ4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UZKSM-7syVI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UacUR7bPnMM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UjjTMNDZi-A.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/UlqPY-VWsm8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/V12SXCvIC9Y.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/VCvFL3DmYr8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/VMXQ8LcuItM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/VwCkyf0lQwo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/W3YkLWSM0Pw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/W5i0vFUwQwM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/WcqUBiY7uWc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Wg6pNSSLdso.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/WlZU1qxBTTw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/XKl_ls9mOdc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/XUdw1QMm5us.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Xc9CwUFMA-4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/XcyBJ_4LeZ0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Xdzi1tAkV20.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Xem1OX14kYw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/XpdlNhRNNIY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/YIm8TzW8_fU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/YUFm9AgIgCw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Ye4CnzaAqf4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ZH7iA5HDWdM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ZUYCkHWgVss.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/Zm_SsdSW_xE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ZzV8NBHu2TY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/_LR1NtZOISg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/_aRu_3WvE6c.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/a5DdD2dTDBo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/a6hxZ21I8Q4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/aBRpZMqifn0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/aFBnC2zPkEU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/aQ63Px0TdqQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/aZOMqvmEMb4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/aZZF_jMA_Lo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ab42myp0HA4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/b7MpB-DUwmM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/baPLxugC8Nc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/c26Lxn9ItlQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/c3uymsVqPdc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/c9Y3PDVheeY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/cGOcy3dA51g.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/cGyHJqrXcSo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/chAPmQQqVIs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/czVS-hW8WC0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/d0dqp7UZx0Y.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/d6QQXw1pArA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/dIXq-LujIcA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/dWS4kQJPFLA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/dmc2xl5jLFo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/dn21H08vgc8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/duAXEJMgwyc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/e23lxldyNu0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/egqDPipqIAg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/en1ZHMANDkg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/en5pro-vyVw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/epfssa9mbLY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/f8ySjlqVVYs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/fH2fxMKGCMw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/fPywb7F4JDM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/fkySFA42ink.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/foVEWuMHo40.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/fy6r5aoBZqQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/g0oxu5tsFoI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/gID_ZY36FP0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/g_xwtZVuRaU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/gdRHmy6O6yU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/gozilDSb0pk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/gwcwSZIfKlM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/h68zxURYgLw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/hDT3qaA42GI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/hbSndm0jKoA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/i1Q9tAe-pIE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/i9lHgzGRnzk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/iC0IZOwx_xI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/iSE0okGINjU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/iUZ89t1FctY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/iXK68c3ColY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ilzmepgYdyQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ipJuYtowVBA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/iz0Z3DZPc8w.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jA-mYT02khw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jDThcFweXOE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jX9odKQlpxM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jawH2Pn_16Y.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jk2OMn8RXlM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/jkXDAXSB-z8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/k-y3uK9zn6k.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/kAKZeIzs0Ag.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/kMdq_CMN930.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/kPRA0W1kECg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/khnNH2C1igU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/kntq3ewQCf0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/kqUGVTXY_5U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/l4Os9UrPb7k.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/lDFb8wMj2pQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/lReaqqh4nEg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/lkfrElWa_nM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/lpUeaqJ_T2w.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/luwmJh3Hrx0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/m4qv9rK8k9s.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/m9lLtOxlQDY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mASBERjgLqA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mGvdVXxFkY4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mQRhHkKt8bI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mSnRq6iyHKg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mTSj2abg7C4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/mcR0yIzY4zQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/me9YKM92Wak.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/nSLqMqDv5ww.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/nWHIHe-rjoU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/nombrmb2Hvs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/o19Kf5NF2nE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/oKyCKrwMQpA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/oNHZsDqr07U.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/oa5wdyIAbB8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ol9SduxHoGQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/p0clJ1zKp00.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/p4awgcrXpD0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/pCCr8DbkJf0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/pWiLWmj-ook.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/pZqdacGtYsA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/pqieXSLOslo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/psLRiWbSue8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/psS2IMFkxKo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qEogbYmOh2Y.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qFkUCTBan6c.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qSHo2N-fOAE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qTvKWRIBkoY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qY_WUfUMdQw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qrSOh-wkqGU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/qv9nr1CXx00.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rCiKadZGEv8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rNBVvrdmB8o.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rTjfFt2i5Sg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rf8V8sRgFtU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rgERZsyAMWI.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/rt8h-wR-_Ww.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/s2q8nJKa4XA.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/s4udNe7h_hg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/s6Ay_dIRFak.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/sLDmfPz_bpg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/sfoBkPIv6a4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/sgL9fTGmB1Y.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/sj5_TH2L7h4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/t9AUFc9q3zo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tAFtYo3DAvs.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tD7FeRQAunU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tHqe5fAaPz0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tInL0I0M0Vo.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/t_8XaiZ0ol4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tjkMed9Rmfw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tnB-b9EpiSc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tniWjtknGlk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/tpi5RoNmvTU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/uWSxzjyMNpU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/ubmKGUzO0WQ.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/uudS8KsbLuM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/vMXEpwd5gYM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/vsglkjIRZrE.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/vvr_CFgpGw4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wTFeeYLO-hM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wZQ9hWq1BdY.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wcZ_Q_9Dtnw.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wguY9NXcS44.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wi9_1i9DD_A.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wqwPdwtaWY4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/wuvHz6iAdg4.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xOhU2KIBNq8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xTGXpdwD6BM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xTwdAe-M7Mk.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xZMcXbtH-ks.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xczoyGLziGg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xf-b3BorM4E.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/xq9zNopY7qg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/y8cLX_JduBc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/yXbUnCAyzjU.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/yZ8-09_W3T0.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/yzVJLba-Coc.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/z0m_6vzQSb8.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/z7E9J4OBMNg.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/z8EnhGih32I.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/zNiOMjOEn14.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/zRYJlG7qdTM.mp4
+wget -N https://data.vision.ee.ethz.ch/cvl/video2gif/zzkSxxSfEuo.mp4
 
 # Go back to initial dir
 cd $current_dir
