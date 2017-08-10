@@ -33,9 +33,7 @@ License: This dataset is licensed under BSD, see LICENSE file
 
 Full description:
 
-This dataset contains one zip-compressed archive file.
-
-The content of the file is as follows:
+This repo has the following content:
 
 (a) "metadata.txt" 
     This file contains information about GIFs, their corresponding source video 
@@ -59,7 +57,7 @@ The content of the file is as follows:
 
     https://data.vision.ee.ethz.ch/cvl/video2gif/YouTubeID.mp4
 
-(d) "./evaluation/"
+(d) "./v2g_evaluation/"
     This directory contains evaluation code for nMSD and Average Precision used 
     in our CVPR 2016 paper. It requires Python packages 'numpy', 'scikit-learn' 
     and 'pandas' which can be installed using pip.
@@ -67,4 +65,7 @@ The content of the file is as follows:
 (e) "example.py"
     This script shows how to evaluate the predictions of a model.
 
-Last edit: March 24, 2016
+(f) "setup.py"
+    Script to install the evaluation package. Run `python setup.py install --user`
+
+Last edit: August 10, 2017
