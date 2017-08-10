@@ -10,8 +10,9 @@ import numpy as np
 import sys
 
 
-# Add v2g_evaluation to path and import it
-sys.path.insert(0,'./v2g_evaluation/')
+# Import v2g_evaluation
+# Needs to be done from the root of the repository
+# or the package is installed via python setup.py install
 import v2g_evaluation
 
 
