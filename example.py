@@ -10,9 +10,9 @@ import numpy as np
 import sys
 
 
-# Add evaluation to path and import it
-sys.path.insert(0,'./evaluation/')
-import evaluation
+# Add v2g_evaluation to path and import it
+sys.path.insert(0,'./v2g_evaluation/')
+import v2g_evaluation
 
 
 # Read csv file using pandas
@@ -31,11 +31,11 @@ def evaluate_random():
     all_ap=np.zeros(len(test_ids))
     all_msd=np.zeros(len(test_ids))
     for idx,youtube_id in enumerate(test_ids):
-        y_gt=evaluation.get_gt_score(youtube_id,dataset)
+        y_gt=v2g_evaluation.get_gt_score(youtube_id, dataset)
         y_predicted=np.random.rand(len(y_gt[0]))
 
-        all_ap[idx] = evaluation.get_ap(np.array(y_gt).max(axis=0), y_predicted)
-        all_msd[idx] = evaluation.meaningful_summary_duration(y_gt,y_predicted)
+        all_ap[idx] = v2g_evaluation.get_ap(np.array(y_gt).max(axis=0), y_predicted)
+        all_msd[idx] = v2g_evaluation.meaningful_summary_duration(y_gt, y_predicted)
     print('AP=%.2f%%; MSD=%.2f%%' % (100*np.mean(all_ap),100*np.mean(all_msd)))
 
 
